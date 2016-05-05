@@ -1,0 +1,21 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+ul {
+	list-style: none;
+}
+h2 {
+	text-align: center;
+	padding-bottom: 40px;
+}
+/*--- FORM ---*/
+form {
+	width: 50%;
+	margin: 0 auto;
+	outline: 1px solid red;
+	text-align: center;
+}
+li {
+	padding-bottom: 10px;
+}

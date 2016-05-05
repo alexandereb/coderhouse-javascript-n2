@@ -11,12 +11,11 @@
 		<ul>
 			<li>
 				<label>Nombre de Cliente</label>
-				<input type="text" required>
+				<input type="text" name="nombre" id="nombre">
 			</li>
 			<li>
 				<label>Tipo de Cliente</label>
-				<select name="" id="" required>
-					<option value=""></option>
+				<select name="tipo_cliente" id="tipo_cliente">
 					<option value="alumno">Alumno</option>
 					<option value="profesor">Profesor</option>
 					<option value="apoderado">Apoderado</option>
@@ -25,11 +24,17 @@
 			</li>
 		</ul>
 		<fieldset>
-			<select name="" id="">
-				<option value=""></option>
+			<label>Tipo de Producto</label>
+			<select name="tipo_producto" id="tipo_producto">
+				<option value="">productos</option>
 			</select>
+			<label>Cantidad</label>
+			<input type="text" name="cantidad" id="cantidad">
+			<!--span class="btn-mas">+</span-->
 		</fieldset>
-
+		<button>Calcula</button>
 	</form>
+
+	<script src="js/scripts.js"></script>
 </body>
 </html>

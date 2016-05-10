@@ -1,0 +1,30 @@
+.card {
+  width: 90%;
+  margin: 30px auto 30px auto;
+}
+
+.card .nuevoCliente {
+  padding: 30px;
+}
+
+.card .tipoCliente form > input {
+  margin-left: 10px;
+}
+
+.card .wrapper-compra {
+  padding: 30px;
+}
+
+.btn-compra {
+  margin-top: 25px;
+  text-align: right;
+}
+
+.btn-pagar {
+  margin-left: 10%;
+  margin-bottom: 40px;
+  width: 80%;
+  height: 50px;
+}
+
+/*# sourceMappingURL=main.css.map */

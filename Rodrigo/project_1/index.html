@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+
+  <title> JS -Administrador Librería el Ilustrado</title>
+  <meta name="description" content="Clase 5">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" href="css/bulma.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Hero -->
+  <section class="hero is-primary is-bold ">
+    <div class="hero-content">
+      <div class="container">
+        <h1 class="title">
+          Librería El Ilustrado
+        </h1>
+        <h2 class="subtitle">
+          Administrador de Clientes
+        </h2>
+      </div>
+    </div>
+  </section>
+
+    <div class = "container is-fluid">
+
+     <!-- Card Nuevo Cliente -->
+    <div class="card">
+        <section class="nuevoCliente">
+          <div class="columns">
+           <div class="column">
+            <h1 class="title is-3">Nuevo Cliente</h1>
+                </div>
+               </div>
+        </section>
+
+
+        <section class="nuevoCliente">
+            <div class="columns">
+                  <div class="column">
+            <form>
+              <!-- Input Nombre -->
+              <label class="label" for="nombre">Nombre Cliente</label>
+              <input class="input" type="text" placeholder="Ingresar nombre cliente" id="nombre" required>
+            </form>
+                </div>
+
+          <div class="column">
+            <!-- options Tipo Cliente -->
+            <div class="tipoCliente">
+              <form class="tipoClienteForm">
+                <label class="label" id="tipoCliente"> Tipo de Cliente</label>
+
+              <input type="radio" name="tipo" value="Alumno" id="alumno"> Alumno
+              <input type="radio" name="tipo" value="Profesor" > Profesor
+              <input type="radio" name="tipo" value="Apoderado" > Apoderado
+              <input type="radio" name="tipo" value="Otro" > Otro
+          </form>
+          </div> <!-- fin options Tipo Cliente -->
+          </div>
+          </div>
+
+        </section>
+    </div><!-- Fin Card Nuevo Cliente -->
+
+
+
+
+
+  <!-- Comienzo card compra -->
+    <div class="card">
+      <div class = "wrapper-compra">
+      <div class="columns">
+        <div class = "column">
+          <h1 class="title is-3">Compra</h1>
+          </div>
+        </div>
+        </div>
+
+          <div class = "wrapper-compra " id="wrapperCompra">
+          <div class="columns">
+              <div class="column">
+          <label class="label">Producto y Servicios</label>
+              <span class="select">
+               <form>
+                <select id="select">
+                  <optgroup>
+                    <option selected disabled >Servicios</option>
+                    <option value="Fotocopias">Fotocopias</option>
+                    <option value="Scanner">Scanner</option>
+                    <option value="Impresion Color">Impresión Color</option>
+                    <option value="Impresion Blanco y Negro">Impresión blanco y negro</option>
+                    <option value="Plotter">Plotter</option>
+                  </optgroup>
+
+                  <optgroup>
+                    <option disabled >Artículos de escritorio</option>
+                    <option value="Hoja Carta">Hoja Carta</option>
+                    <option value="Goma de borrar">Goma de borrar</option>
+                    <option value="tijeras">Tijeras</option>
+                    <option value="pegamento">Pegamento</option>
+                    <option value="lapiz">Lápiz</option>
+                    <option value="cuaderno">Cuaderno</option>
+                </optgroup>
+
+                <optgroup>
+                  <option disabled >Libros</option>
+                  <option value="libro matematicas">Libro Matemáticas</option>
+                  <option value="libro lenguaje">Libro Lenguaje</option>
+                  <option value="libro ciencias e historia">Libro Ciencias e Historia</option>
+                </optgroup>
+                </select>
+                </form>
+              </span>
+              </div>
+
+        <!--  input Cantidad -->
+              <div class = "column is-2">
+          <div class= "compra">
+          <label class="label" for="cantidad">Cantidad</label>
+          <input class="input" type="number" placeholder="0" id="cantidad" required>
+        </div>
+        </div>
+
+        <div class="column"></div>
+
+        <div class = "column">
+          <a class="button is-primary btn-compra"> + Agregar compra</a>
+        </div>
+        </div>
+        </div>
+    </div><!-- Cierre card compra -->
+
+
+        <section>
+        <a class="button is-primary btn-pagar" id="boton"> ir a pantalla de pago </a>
+        </section>
+
+</div>
+
+
+</body>
+<!-- <script src="js/main.js"></script> -->
+<script src="js/valores.js"></script>
+</html>

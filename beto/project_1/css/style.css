@@ -16,6 +16,30 @@ form {
 	outline: 1px solid red;
 	text-align: center;
 }
+fieldset {
+	border: 0;
+}
 li {
 	padding-bottom: 10px;
+}
+.btn-mas {
+	cursor: pointer;
+	display: block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	float: right;
+	background: black;
+	color: white;
+	border-radius: 20px;
+}
+button {
+	border: 0;
+	background: black;
+	color: white;
+	text-align: center;
+	padding: 5px 10px;
+	margin: 20px 0;
+	cursor: pointer;
 }
